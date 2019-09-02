@@ -5876,7 +5876,12 @@ button.bg-dark:focus {
 .justify-content-center {
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
+<<<<<<< HEAD
   justify-content: center !important; }
+=======
+  justify-content: center !important;
+  display: flex !important;}
+>>>>>>> b627bd7a3466fcce98af6c6917e37b124fd98fa6
 
 .justify-content-between {
   -webkit-box-pack: justify !important;
