@@ -5858,6 +5858,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important; }
 
 .justify-content-center {
+ display: flex;
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
   justify-content: center !important; }
