@@ -10474,11 +10474,8 @@ text-align:left !important;}
 .cb-slideshow:after { 
     position: absolute;
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
-=======
     height: 93.6%;
->>>>>>> 5a1c684cf3b1b04a37665ecb47c2ce3c022ae559
     top: 0px;
     left: 0px;
     z-index: 0; 
@@ -10488,11 +10485,8 @@ text-align:left !important;}
 	.cb-slideshow:after { 
     position: absolute;
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
-=======
     height: 40%;
->>>>>>> 5a1c684cf3b1b04a37665ecb47c2ce3c022ae559
     top: 0px;
     left: 0px;
 	z-index: 0; }}
@@ -10501,31 +10495,25 @@ text-align:left !important;}
 	.cb-slideshow:after { 
     position: absolute;
     width: 100%;
-<<<<<<< HEAD
     height: 100% !important;
-=======
     height: 53% !important;
->>>>>>> 5a1c684cf3b1b04a37665ecb47c2ce3c022ae559
     top: 0px;
     left: 0px;
 	z-index: 0; }}
-	@media (max-width: 1024px) and (min-width: 769px) {
-	.cb-slideshow,
-	.cb-slideshow:after { 
+ @media (max-width: 1024px) and (min-width: 769px) {
+   .cb-slideshow,
+   .cb-slideshow:after { 
     position: absolute;
     width: 100%;
-<<<<<<< HEAD
     height: 100% !important;
-=======
     height: 60% !important;
->>>>>>> 5a1c684cf3b1b04a37665ecb47c2ce3c022ae559
     top: 0px;
     left: 0px;
-	z-index: 0; }}
+    z-index: 0; }}
 
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left; 
+    background: transparent url(images/pattern.png) repeat top left; 
 }
 .cb-slideshow li span { 
     width: 100%;
@@ -10568,10 +10556,10 @@ text-align:left !important;}
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(images/1.JPG) 
+    background-image: url(images/first.JPG) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(images/2.JPG);
+    background-image: url(images/second.JPG);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -10732,9 +10720,3 @@ text-align:left !important;}
 	opacity: 1;
 }
 
-@media screen and (max-width: 1140px) { 
-    .cb-slideshow li div h3 { font-size: 140px }
-}
-@media screen and (max-width: 600px) { 
-    .cb-slideshow li div h3 { font-size: 80px }
-}
