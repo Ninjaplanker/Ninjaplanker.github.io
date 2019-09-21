@@ -10481,6 +10481,32 @@ text-align:left !important;}
 	animation-timing-function: ease-in-out;
 	background-image: url('../images/1.JPG');
 }
+@media (max-width: 990.98px) and (min-width: 768px){
+	#slideBG {
+	width: 100%;
+	height: 55vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg	25s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image: url('../images/1.JPG');
+	}
+}
+@media (max-width: 767px) and (min-width: 325px){
+	#slideBG {
+	width: 100%;
+	height: 45vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg	25s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image: url('../images/1.JPG');
+	}
+}
 
 @keyframes slideBg {
 	0% {
